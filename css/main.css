@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --background: #181926;
+    --main-text: #cad3f5;
+    --primary: #ed8796;
+    --primary-hover: #ee99a0;
+    --secondary: #8aadf4;
+    --secondary-hover: #7dc4e4;
+}
+
+body {
+    background-color: var(--background);
+
+    font-family: "Rubik", sans-serif;
+}
+
+h1 {
+    color: var(--primary);
+}
+
+p {
+    color: var(--main-text);
+}
+
+a {
+    text-decoration: none;
+    text-shadow: none;
+    color: var(--secondary);
+
+    transition: all 0.3s ease;
+}
+a:hover {
+    color: var(--secondary-hover);
+    text-shadow: 0 0 5px var(--secondary);
+}
